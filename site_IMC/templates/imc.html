@@ -1,0 +1,12 @@
+<form method="POST">
+
+    <input type="text" name="alturaimc" placeholder="Altura">
+    <input type="text" name="pesoimc" placeholder="Peso">
+
+    <button type="submit">Calcular</button>
+
+</form>
+
+{% if imc %}
+    <h1>Seu IMC é: {{ imc }}</h1>
+{% endif %}
